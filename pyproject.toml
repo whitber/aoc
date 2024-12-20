@@ -1,0 +1,17 @@
+[project]
+name = "waoc"
+version = "0.1.0"
+dependencies = ["click"]  
+
+[project.scripts]
+waoc = "waoc.waoc:cli"
+
+[tool.pylint]
+disable = [
+    "missing-docstring",  # Disables warnings for missing module, class, and function docstrings
+    "unused-import",
+    "invalid-name",
+]
+
+[tool.ruff]
+ignore = ["F401"]  # F401 is the code for "unused imports"

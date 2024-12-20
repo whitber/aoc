@@ -1,0 +1,13 @@
+black
+ruff
+mypy
+pylint
+
+loguru
+jinja2
+
+bidict
+regex
+numpy
+
+advent-of-code-data
